@@ -104,10 +104,18 @@ By the end of today, you should:
 - [Performance Optimization](https://www.techtarget.com/searchenterpriseai/tip/AI-model-optimization-How-to-do-it-and-why-it-matters)
 
 ### Troubleshooting
-- Authentication Issues
-- API Response Errors
-- Rate Limits
-- Common Setup Problems
+#### Authentication Issues
+make sure you have done the following:
+1. Makes sure the region matches in the following:
+ - AWS user account for credentials 
+ - Requested LLM Model API
+ - The region in your client configuration
+2. Make sure the AWS user account for API credentials has the right permissions:
+ - General read Bedrock Read Permissions
+ - Inline policy to invoke LLM inference models
+#### API Response Errors
+#### Rate Limits
+#### Common Setup Problems
 
 ### Preparation for Day 3
 - Review multi-modal concepts - [Google Documentation](https://cloud.google.com/use-cases/multimodal-ai)
