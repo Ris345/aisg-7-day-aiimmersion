@@ -9,6 +9,7 @@
     # pkgs.go
     pkgs.python311
     pkgs.python311Packages.pip
+    pkgs.ollama
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
   ];
@@ -27,6 +28,7 @@
       "ms-toolsai.jupyter-renderers"
       "ms-toolsai.vscode-jupyter-cell-tags"
       "ms-toolsai.vscode-jupyter-slideshow"
+      "saoudrizwan.claude-dev"
     ];
 
     # Enable previews
